@@ -1,6 +1,6 @@
 # Tenant-Onboarding
 
-### Steps to bring up container to run tenant onboarding scripts without having this to be installed on virtual machine.
+### Steps to bring up container to run tenant onboarding scripts.
 
     git clone https://github.com/prabhum456/Tenant-Onboarding.git 
     cd Tenant-Onboarding
