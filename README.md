@@ -1,6 +1,9 @@
 # Tenant-Onboarding
 
-### Steps to bring up Container to running tenant onboarding scripts without having this to be installed on virtual machine  
+### Steps to bring up container to run tenant onboarding scripts without having this to be installed on virtual machine.
+
+    git clone https://github.com/prabhum456/Tenant-Onboarding.git 
+    cd Tenant-Onboarding
 
 ##### Step1 : docker build -t <image-name> .
 ##### Step2 : docker run -it -v "/var/run/docker.sock:/var/run/docker.sock" <Continer-Image/image-ID>
