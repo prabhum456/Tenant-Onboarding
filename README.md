@@ -8,5 +8,6 @@
  
  
  
- ### NOTE : Make sure AWS Creds is present in /root/.aws/credentials path
+ ### NOTE : 
+         Make sure AWS Creds are present in /root/.aws/credentials path on HOST machine where docker is running
  
