@@ -31,6 +31,4 @@ RUN curl -SsLf "$AWS_IAM_AUTH" > /usr/local/bin/aws-iam-authenticator && \
 
 RUN pip3 install requests
 
-RUN git clone https://github.com/hpe-hcss/iam-terraform-spoke.git && cd iam-terraform-spoke && export PATH=${PATH}:${HOME}/.local/bin
-
 ENTRYPOINT ["/bin/bash"]
