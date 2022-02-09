@@ -1,4 +1,4 @@
-From 657273346644.dkr.ecr.us-east-1.amazonaws.com/hpe-hcss/cluster-gen:latest
+From 657273346644.dkr.ecr.us-east-1.amazonaws.com/hpe-hcss/cluster-gen:0.0.1
 
 RUN pip3 --no-cache-dir install --upgrade awscli
 
